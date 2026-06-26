@@ -1,14 +1,18 @@
-<!DOCTYPE html>
+{% extends "base.html" %}
+<!-- it must be the first tag of the existing file before all the other tags like html head body etc. -->
+
+{% block content %}
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
+    <title>Services</title> -->
     <link rel="stylesheet" href="/static/css/style.css">
-</head>
+<!-- </head>
 
-<body>
+<body> -->
 
     {% include "header.html" %}
     <!-- <header>
@@ -46,6 +50,7 @@
     </footer> -->
 
     <script src="/static/js/script.js"></script>
-</body>
+<!-- </body>
 
-</html>
+</html> -->
+{% endblock %}
