@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<header>
+<!-- <header>
     <h1>My Website</h1>
     <nav>
         <a href="index.html">Home</a>
@@ -16,18 +16,20 @@
         <a href="services.html">Services</a>
         <a href="contact.html">Contact</a>
     </nav>
-</header>
-
-<section class="hero" style="background: url(../static/images/images.jpg);">
+</header> -->
+{% include "header.html" %}
+<section class="hero">
+<!-- <section class="hero" style="background: url(../static/images/images.jpg);"> -->
     <h2>Welcome to Our Website</h2>
     <!-- <img src="../static/images/images.jpg" alt=""> -->
     <p>We provide quality services for our clients.</p>
     <button onclick="showMessage()">Learn More</button>
 </section>
 
-<footer>
+{% include "footer.html" %}
+<!-- <footer>
     <p>&copy; 2025 My Website. All Rights Reserved.</p>
-</footer>
+</footer> -->
 
 <script src="/static/js/script.js"></script>
 </body>

@@ -10,7 +10,8 @@
 
 <body>
 
-    <header>
+    {% include "header.html" %}
+    <!-- <header>
         <h1>My Website</h1>
         <nav>
             <a href="templates/index.html">Home</a>
@@ -18,7 +19,7 @@
             <a href="services.html">Services</a>
             <a href="contact.html">Contact</a>
         </nav>
-    </header>
+    </header> -->
 
     <section class="content">
         <h2>Our Services</h2>
@@ -39,9 +40,10 @@
         </div>
     </section>
 
-    <footer>
+    {% include "footer.html" %}
+<!--<footer>
         <p>&copy; 2025 My Website. All Rights Reserved.</p>
-    </footer>
+    </footer> -->
 
     <script src="/static/js/script.js"></script>
 </body>
